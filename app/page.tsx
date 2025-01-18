@@ -5,7 +5,7 @@ import { CanvasRevealEffect1 } from "./components/CanvasRevealEffect1";
 import { LayoutGrid } from "./components/LayoutGrid";
 import { Footer } from "./components/footer/footer";
 
-export default function Home() {
+export default function Page() {
   const navItems = [
     {
       name: "Home",
