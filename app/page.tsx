@@ -58,11 +58,17 @@ export default function Page() {
             </div>
           </AnimatePresence>
           <div className="relative z-20">
-            <h2 className="text-4xl font-bold text-center group-hover/canvas-card:-translate-y-8 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center ">
+            <h2 className="text-4xl font-bold text-center group-hover/canvas-card:-translate-y-8  transition duration-200 w-full  mx-auto flex items-center justify-center ">
               What is House Of ArchDes ?
             </h2>
-            <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-            House of ArchDes, is an interior design firm founded by Aastha Choudhary. It specializes in creating spaces that blend elegance with modern luxury. From personalized residential designs to sophisticated commercial projects like jewelry stores and villas, HOAD transforms spaces into stunning environments tailored to your unique style.
+            {/* <h2 className="text-4xl font-bold text-center group-hover/canvas-card:opacity-100 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center ">
+              What is House Of ArchDes ?
+            </h2> */}
+            <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
+            House of ArchDes, is an interior design firm founded by Aastha Choudhary.            
+            </h2>
+            <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
+            It specializes in creating spaces that blend elegance with modern luxury. From personalized residential designs to sophisticated commercial projects like jewelry stores and villas, HOAD transforms spaces into stunning environments tailored to your unique style.
             </h2>
           </div>
         </div>
