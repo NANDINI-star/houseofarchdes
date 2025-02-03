@@ -27,7 +27,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
 
   return (
     <div className="w-full h-full bg-white" >
-      <h1 className="text-center text-black text-2xl font-bold" >House of Architecture and Design</h1>
+      <h1 className="text-center text-black text-3xl font-bold" >House of Architecture and Design</h1>
       <h1 className="text-center text-black text-1xl font-bold" >Interior Design Firm</h1>
       <div className="w-full h-full p-10 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative ">
       {cards.map((card, i) => (
