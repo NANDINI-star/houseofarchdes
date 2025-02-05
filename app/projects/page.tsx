@@ -28,6 +28,30 @@ export default function Projects() {
   const cards = [
     {
       title: "Bedroom",
+      src:       "/fiftythree.jpeg",
+    },
+    {
+      title: "Bedroom",
+      src:       "/fiftyfour.jpeg",
+    },
+    {
+      title: "Table",
+      src:       "/fiftyfive.jpeg",
+    },
+    {
+      title: "Wardrobe",
+      src:       "/fiftysix.jpeg",
+    },
+    {
+      title: "Kitchen",
+      src:       "/fiftyseven.jpeg",
+    },
+    {
+      title: "Bathroom",
+      src:       "/fiftyeight.jpeg",
+    },
+    {
+      title: "Bedroom",
       src: "/one.png",
     },
     {
@@ -202,6 +226,7 @@ export default function Projects() {
       title: "Living Area",
       src:       "/fiftytwo.PNG",
     },
+    
   ]
  
   return (
