@@ -210,10 +210,10 @@ export default function Projects() {
       title: "Office",
       src:       "/fortyfive.png",
     },
-    {
-      title: "Jewellery Store",
-      src:       "/fortysix.png",
-    },
+    // {
+    //   title: "Jewellery Store",
+    //   src:       "/fortysix.png",
+    // },
     {
       title: "Living Area",
       src:       "/fortynine.png",
