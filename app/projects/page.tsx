@@ -212,19 +212,19 @@ export default function Projects() {
     },
     {
       title: "Jewellery Store",
-      src:       "/fortysix.PNG",
+      src:       "/fortysix.png",
     },
     {
       title: "Living Area",
-      src:       "/fortynine.PNG",
+      src:       "/fortynine.png",
     },
     {
       title: "Living Area",
-      src:       "/fifty.PNG",
+      src:       "/fifty.png",
     },
     {
       title: "Living Area",
-      src:       "/fiftytwo.PNG",
+      src:       "/fiftytwo.png",
     },
     
   ]
