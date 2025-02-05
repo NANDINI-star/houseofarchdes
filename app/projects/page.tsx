@@ -24,33 +24,45 @@ export default function Projects() {
       name: "Contact",
       link: "/contact",
     },
-  ];
+  ]
   const cards = [
     {
-      title: "Forest Adventure",
-      src:       "",
+      title: "Bedroom",
+      src: "/one.png",
     },
     {
-      title: "Valley of life",
-      src:       "",
+      title: "Kid's room",
+      src:       "/two.png",
     },
     {
-      title: "Sala behta hi jayega",
-      src:       "",
+      title: "Entrance",
+      src:       "/three.png",
     },
     {
-      title: "Camping is for pros",
-      src:       "",
+      title: "Entrance",
+      src:       "/four.png",
     },
     {
-      title: "The road not taken",
-      src:       "",
+      title: "Bedroom",
+      src:       "/five.png",
     },
     {
-      title: "The First Rule",
-      src:       "",
+      title: "Kid's Study",
+      src:       "/six.png",
     },
-  ];
+    {
+      title: "Bedroom",
+      src:       "/seven.png",
+    },
+    {
+      title: "Bedroom",
+      src:       "/eight.png",
+    },
+    {
+      title: "Bedroom",
+      src:       "/nine.png",
+    },
+  ]
  
   return (
     <>
@@ -58,7 +70,7 @@ export default function Projects() {
         <p>House of ArchDes</p>
       </h1>
       <FloatingNav navItems={navItems} />
-      <FocusCards cards={cards} />;
+      <FocusCards cards={cards} />
       <Footer />
     </>
   )
