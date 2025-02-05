@@ -5,7 +5,7 @@ interface FooterNavProps {
   items: Array<{
     href: string;
     label: string;
-  }>;
+  }>
 }
 
 export function FooterNav({ title, items }: FooterNavProps) {
