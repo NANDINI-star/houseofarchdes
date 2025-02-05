@@ -44,8 +44,7 @@ export default function About() {
           Sometimes, you just need to see it.
         </TextRevealCardTitle>
         <TextRevealCardDescription>
-          This is a text reveal card. Hover over the card to reveal the hidden
-          text.
+          House of ArchDes
         </TextRevealCardDescription>
       </TextRevealCard>
     </div>
