@@ -73,7 +73,61 @@ export default function Services() {
     },
 
     {
-      title: "Execution",
+      title: "End to End Execution (just give us land)",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Designer Rugs",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "US imported Furniture",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Structural/ Civil Engineering",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "On site and virtual consultancies",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Modular kitchens and wardrobes",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Building Construction",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Architectural services",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Pan India designing",
+      description:
+        "",
+      link: "",
+    },
+    {
+      title: "Execution in Delhi NCR",
       description:
         "",
       link: "",

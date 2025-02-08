@@ -1,10 +1,10 @@
-import { Github, Twitter, Linkedin, Facebook } from "lucide-react";
+import { Instagram, Linkedin, Pin } from "lucide-react";
 
 const socialLinks = [
-  { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
-  { href: "https://github.com", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://facebook.com", icon: Facebook, label: "Facebook" },
+  { href: "https://pin.it/4jAIiy0QX", icon: Pin, label: "Pinterest" },
+  { href: "https://www.instagram.com/houseofarchdes/?igsh=bXpydW92OTh6a2g3&utm_source=qr", icon: Instagram, label: "Instagram" },
+  { href: "https://www.linkedin.com/in/aastha-choudhary-70518220b", icon: Linkedin, label: "LinkedIn" },
+  // { href: "https://facebook.com", icon: Facebook, label: "Facebook" },
 ];
 
 export function FooterSocial() {
