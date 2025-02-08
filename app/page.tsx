@@ -68,7 +68,8 @@ export default function Page() {
             House of ArchDes, is an interior design firm founded by Aastha Choudhary.            
             </h2>
             <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
-            It specializes in creating spaces that blend elegance with modern luxury. From personalized residential designs to sophisticated commercial projects like jewelry stores and villas, HOAD transforms spaces into stunning environments tailored to your unique style.
+            At House of ArchDes, we bring together a team of professional engineers, architects, and designers to create innovative and timeless spaces. Whether you have a vision in mind or need expert guidance, we handle everything from concept to execution. 
+            All you need is the land—we take care of the rest. From planning and design to construction and finishing touches, we build your dream home end to end.
             </h2>
           </div>
         </div>

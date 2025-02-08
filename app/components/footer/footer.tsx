@@ -5,6 +5,7 @@ import { FooterCopyright } from "./footer-copyright";
 import { Laptop } from "lucide-react";
 
 const company = [
+  { href: "/home", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   // { href: "/careers", label: "Careers" },
@@ -12,7 +13,7 @@ const company = [
 
 const resources = [
   { href: "/projects", label: "Projects" },
-  { href: "/pinterest", label: "Pinterest" },
+  // { href: "/pinterest", label: "Pinterest" },
   // { href: "/guides", label: "Guides" },
 ];
 
@@ -45,9 +46,9 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t">
-        <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col md:flex-row md:items-center md:justify-between lg:px-8">
-          <FooterCopyright />
-          <div className="mt-4 flex space-x-6 md:mt-0">
+        {/* <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col md:flex-row md:items-center md:justify-between lg:px-8">
+          {/* <FooterCopyright /> */}
+          {/* <div className="mt-4 flex space-x-6 md:mt-0">
             {legal.map((item) => (
               <a
                 key={item.href}
@@ -58,7 +59,7 @@ export function Footer() {
               </a>
             ))}
           </div>
-        </div>
+        </div> */} 
       </div>
     </footer>
   );
