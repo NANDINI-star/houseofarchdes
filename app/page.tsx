@@ -50,24 +50,24 @@ export default function Page() {
                 animationSpeed={3}
                 containerClassName="bg-black"
                 colors={[
-                  [255, 223, 0],     // Golden Yellow
-                  [255, 166, 0], 
+                  [0, 128, 0], // Standard Dark Green
+                  [0, 85, 0]
                 ]}
                 dotSize={2}
               />
             </div>
           </AnimatePresence>
           <div className="relative z-20">
-            <h2 className="text-4xl font-bold text-center group-hover/canvas-card:-translate-y-8  transition duration-200 w-full  mx-auto flex items-center justify-center ">
+            <h2 className="lg:text-4xl sm:text-3xl md:text-3xl font-bold text-center group-hover/canvas-card:-translate-y-8  transition duration-200 w-full  mx-auto flex items-center justify-center ">
               What is House Of ArchDes ?
             </h2>
             {/* <h2 className="text-4xl font-bold text-center group-hover/canvas-card:opacity-100 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center ">
               What is House Of ArchDes ?
             </h2> */}
-            <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
+            <h2 className="dark:text-white lg:text-3xl sm:text-2xl md:text-2xl sm:opacity-100 md:opacity-100 opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
             House of ArchDes, is an interior design firm founded by Aastha Choudhary.            
             </h2>
-            <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
+            <h2 className="dark:text-white lg:text-3xl sm:text-2xl md:text-2xl sm:opacity-100 md:opacity-100 opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
             At House of ArchDes, we bring together a team of professional engineers, architects, and designers to create innovative and timeless spaces. Whether you have a vision in mind or need expert guidance, we handle everything from concept to execution. 
             All you need is the land—we take care of the rest. From planning and design to construction and finishing touches, we build your dream home end to end.
             </h2>
